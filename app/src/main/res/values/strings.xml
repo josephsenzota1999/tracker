@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BudgetTracker</string>
+    <string-array name="menu_items">
+        <item>Food</item>
+        <item>Travel</item>
+        <item>Shopping</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>
