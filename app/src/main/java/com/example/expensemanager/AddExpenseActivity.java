@@ -1,8 +1,5 @@
 package com.example.expensemanager;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -13,13 +10,17 @@ import android.widget.AdapterView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.expensestracker.R;
-import com.example.expensestracker.databinding.ActivityAddExpenseBinding;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.expensemanager.R;
+//import com.example.expensemanager.databinding.ActivityAddExpenseBinding;
+//import android.R;
+import com.example.expensemanager.databinding.ActivityAddExpenseBinding;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.Calendar;
-import java.util.Date;
 import java.util.UUID;
 
 public class AddExpenseActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
